@@ -29,11 +29,6 @@ p {
     font-weight: 300;
 }
 
-.card-header {
-    font-family: 'Paytone One', sans-serif;
-}
-
-
 .btn.gi-btn{
     color: #ffff;
     background-color: #64AF13;
@@ -42,9 +37,7 @@ p {
     font-weight: 400;
 }
 
-.list-group-item {
-    border: 0px !important;
-}
+
 
 footer{
     background-color: #0d6efd;
@@ -96,4 +89,8 @@ footer a {
     display: flex;
     gap: 30px;
     height: 15px;
+}
+
+.btn{
+    width: 100%;
 }

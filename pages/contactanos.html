@@ -6,62 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Give It - Contactanos</title>
    <link rel="shortcut icon" href="../images/flavicon.png" type="image/x-icon">
-   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/contactanos.style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">    
 </head>
 <body>
-    <nav>
-        <a class="logo-container" href="../index.html">
-            <img src="../images/headers/logo.png" alt="Logo de Give It">
-        </a>
-        <ul>
-            <li>
-                <a href="../index.html#pqgt"> ¿Por qué Give It?</a>
+    <nav class="navbar navbar-expand-lg bg-primary pt-3 pb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/headers/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#pqgt">¿Por que Give It?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/tarifas.html">Tarifas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/blog.html">Blog </a>
+             </li>
+             <li class="nav-item">
+             <a class="nav-link" href="../pages/plataforma.html">Plataforma</a>
             </li>
-            <li>
-                <a href="../pages/tarifas.html">Tarifas</a>
-            </li>
-            <li>
-                <a href="../pages/blog.html"> Blog</a>
-            </li>
-            <li>
-                <a href="../pages/plataforma.html"> Plataforma</a>
-            </li>
-            <li>
-                <a href="#"> Contactanos</a>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contactanos</a>
             </li>
             
-        </ul>
-        <a class="button-login" href="#">INGRESAR</a>
-    </nav>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn gi-btn" type="submit">Ingresar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
     <main>
-        <section class="contact-container">
-            <h2>Contactanos</h2>
+        <section class="container pb-5 pt-5">
+            <h1>Contactanos</h1>
             <p> Si deseas que el equipo de Give It se ponga en contacto contigo, ya sea para programar una demostración o una reunión para pedir más información, te pedimos que completes este formulario y a la brevedad nos pondremos en contacto.</p>
             <section>
-                <form action="#" class="contact-form-container">
-                    <label for="name"> Nombre:</label>
-                    <input type="text" placeholder="Ingresa tu nombre"/>
-                    <label for="email"> Email:</label>
-                    <input type="email" placeholder="Ingresa tu email"/>
-                    <label for="phone"> Celular:</label>
-                    <input type="text" placeholder="Ingresa tu celular"/>
-                    <label for="comment"> Comentario</label>
-                    <textarea name="comment" id="" cols="30" rows="10" placeholder="¿En que te podemos ayudar?"></textarea>
-                    <input type="reset">
-                    <input type="submit">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8220.27205707688!2d-57.562793016575746!3d-38.00460860329039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dea44d9f22e3%3A0x4c07c9f874bb45c5!2sYakarplas!5e0!3m2!1ses!2sar!4v1679331588376!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
-                </form>
-            
-            
-                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                              </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text"></div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Celular</label>
+                              <input type="number" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Deseeo recibir noticias y actualizaciones.</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Contactar</button>
+                          </form>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center align-content-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8220.27205707688!2d-57.562793016575746!3d-38.00460860329039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dea44d9f22e3%3A0x4c07c9f874bb45c5!2sYakarplas!5e0!3m2!1ses!2sar!4v1679331588376!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+                    </div>
+                </div>
             </section> 
         </main>
             
         </section>
       
     </main>
-    <!-- ends main -->
     <footer>
         <div class="footer-navigation-container">
             <img src="../images/headers/logo.png" alt="Logo" />
@@ -86,5 +107,7 @@
             </div>
         </div>
     </footer>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>
