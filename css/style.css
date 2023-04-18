@@ -194,7 +194,7 @@ footer a {
 }
 
 .section p {
-    width: 100%;
+    width: 60%;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 00;
@@ -202,7 +202,6 @@ footer a {
 }
 
 .section h2{
-    text-align: center;
     font-family: 'Paytone One', sans-serif;
     font-size: 30px;
     color: #384FF0;
@@ -216,11 +215,22 @@ figure{
     border-radius: 30px;
     padding: 18px 32px;
     color: #000000;
-    width: 300px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
+}
+
+@media (max-width: 800px) {
+    figure{
+        width: 100%;
+        min-width: 200px;
+    }
+    figure p {
+        width: 95%;
+        
+    }
 }
 
 figure div{
@@ -261,15 +271,17 @@ figure button{
 
 .figure-container{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .figure-container p {
     width: 100%;
+    max-width: 300px;
 }
 
 .section div img{
-    width: 50%;
-
+    
 }
 
 .contact-container{
