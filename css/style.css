@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body{
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Paytone One', sans-serif;
+}
+
+h2{
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 50px;
+    line-height: 30px;
+
+}
+.logo-container img{
+    height: 40px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 96%;
+    left: 0;
+    background-color: #384FF0;
+    padding: 18px 32px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.button-login{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #64AF13;
+    padding: 12px 30px;
+    border-radius: 30px 30px 0px 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+nav ul{
+    display:flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    font-weight:400
+}
+
+main{
+    margin-top: 80px;    
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384FF0;
+    padding-top: 5px;
+    padding-left: 32px;
+    color: #ffff;
+}
+
+.welcome div{
+    width: 720px;
+}
+
+.welcome h1{
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 50px;
+    line-height: 30px;
+}
+
+.welcome h1 span{
+    color: #EBB22C;
+}
+
+.welcome p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.welcome img{
+    height: 510px;
+}
+
+.button-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border-radius:30px 30px 30px 0px ;
+    padding: 12px 20px;
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+}
+
+.button-primary{
+    color: #384FF0;
+    background-color: #ffff;
+}
+
+.button-secondary{
+    color: #ffff;
+    background-color: #384FF0;
+}
+.vector-ola{
+    background-color: #384FF0;
+}
+
+footer{
+    background-color: #384FF0;
+    padding: 32px 32px 40px 32px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer a {
+    color: #FFF;
+}
+
+.footer-navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+.footer-navigation-container img{
+    height: 30px;
+}
+
+.footer-navigation{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.footer-navigation a{
+    text-decoration: none;
+}
+
+.footer-contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-contact-icons{
+    display: flex;
+    gap: 30px;
+    height: 15px;
+}
+
+.section{
+    padding: 32px 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.section p {
+    width: 100%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 00;
+    font-size: 16px;
+}
+
+.section h2{
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    color: #384FF0;
+    letter-spacing: 1.5px;
+}
+
+figure{
+    background-color: #fff;
+    border:1.5px solid;
+    border-color: #b8b7b7;
+    border-radius: 30px;
+    padding: 18px 32px;
+    color: #000000;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+figure div{
+    display: flex;
+    justify-content: center;
+}
+
+figure div img{
+height: 90px;
+}
+
+figure figcaption{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #384FF0;
+}
+
+figure p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+figure button{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color:#384FF0;
+    border: none;
+    border-radius: 30px 30px 30px 0px;
+    width: 100%;
+    padding: 12px 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.figure-container{
+    display: flex;
+}
+
+.figure-container p {
+    width: 100%;
+}
+
+.section div img{
+    width: 50%;
+
+}
+
+.contact-container{
+ padding: 32px ;
+ 
+}
+.contact-container p{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact-form-container{
+ display: flex;
+ flex-direction: column;
+ width: 400px;
+ gap: 10px; 
+
+}
+
+
